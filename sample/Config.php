@@ -8,10 +8,10 @@
  */
 final class Config
 {
-    const CONSOLE_AUTH_CODE = 'B9AEFF31-9550-AF19-9E5A-697A6119CC08';
-    const CONSOLE_DOMAIN = 'http://dev_console_api.ihibuilding.cn';
-    const CONSOLE_USER_NO = '15237179193';
-    const CONSOLE_PASSWORD = 'hz123456';
-    const CONSOLE_LOGIN_TYPE = 1;
-    const CONSOLE_SYSTEM_NO = 'ggzx';
+    const CONSOLE_AUTH_CODE = '';//公共中心分配的授权码
+    const CONSOLE_DOMAIN = 'http://dev_console_api.ihibuilding.cn';//请求的接口域名,正式环境为http://console_api.hibuilding.cn
+    const CONSOLE_USER_NO = '';//用户账号
+    const CONSOLE_PASSWORD = '';//用户密码
+    const CONSOLE_LOGIN_TYPE = 1;//默认值，勿改
+    const CONSOLE_SYSTEM_NO = 'ggzx';//用户系统编码，需向SDK提供方确认
 }
