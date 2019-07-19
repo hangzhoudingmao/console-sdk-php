@@ -1,0 +1,23 @@
+{
+    "name": "hzjw/console-sdk-php",
+    "description": "HZJW CONSOLE SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dingmengtao",
+            "role": "Company"
+        }
+    ],
+    "require": {
+        "php":">=7.0.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "CONSOLE\\": "src/CONSOLE"
+        }
+    }
+}
